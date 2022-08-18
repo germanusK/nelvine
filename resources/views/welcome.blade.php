@@ -8,9 +8,11 @@
 
         <link rel="stylesheet" href="{{asset('/bootstrap-5/bootstrap-5.0.2-dist/css/bootstrap.min.css')}}">
         <link rel="stylesheet" href="{{asset('/fontawesome-free-/fontawesome-free-5.14.0-web/css/all.css')}}">
-    </head>
+        <link rel="stylesheet" href="{{asset('/css/footer.css')}}">
     <body class="antialiased">
         @include('templates.header')
+        @include('templates.nelvine')
+        @include('templates.footer')
         <script src="{{asset('/bootstrap-5/bootstrap-5.0.2-dist/js/bootstrap.min.js')}}"></script>
         <script src="{{asset('/fontawesome-free-5/fontawesome-free-5.14.0-web/js/all.min.js')}}"></script>
     </body>
