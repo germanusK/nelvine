@@ -6,8 +6,15 @@
 
         <title>Laravel</title>
 
+        <link rel="stylesheet" href="{{asset('/custom/styles.css')}}">
         <link rel="stylesheet" href="{{asset('/bootstrap-5/bootstrap-5.0.2-dist/css/bootstrap.min.css')}}">
         <link rel="stylesheet" href="{{asset('/fontawesome-free-/fontawesome-free-5.14.0-web/css/all.css')}}">
+        <style>
+            a{
+                text-decoration: none;
+                font-style: normal;
+            }
+        </style>
     </head>
     <body class="antialiased">
         @include('templates.header')

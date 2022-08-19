@@ -1,0 +1,133 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a{
+    text-decoration: none;
+    font-style: normal;
+}
+.bg1{
+    height: fit-content;
+     background-image: url('/images/skuffwdd48.jpg');
+     background-color: rgba(0, 21, 60, 0.7);
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-blend-mode: overlay;
+}
+.bg1 > .navbar{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.bg2{
+    background-image: linear-gradient(transparent 10%, #000 40%);
+    height: 20rem;
+}
+.bg3{
+    min-height: 20rem;
+    max-height: fit-content;
+    background-image: url('/images/skuffwdd9.jpg');
+    background-color: rgba(0, 0, 0, 0.9);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+}
+.bg4{
+    min-height: 30rem;
+    max-height: fit-content;
+    background-image: url('/images/skuffwdd149.jpg');
+    background-color: rgba(27, 2, 138, 0.9);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: color-burn;
+}
+.bg5{
+    min-height: 30rem;
+    max-height: fit-content;
+    background-color: rgba(27, 2, 138, 0.9);
+    background-blend-mode: color-burn;
+}
+.bg6{
+    min-height: 60rem;
+
+}
+.bg6-1{
+    background-image: url('/images/skuffwdd149.jpg'), linear-gradient(to bottom, transparent 30%, rgba(255, 117, 117, 0.4) 70%);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+}
+
+.bg6-1 .hdn{
+
+    display: none;
+}
+.bg6-1:hover{
+    background-image: url('/images/skuffwdd149.jpg'), linear-gradient(transparent, rgb(31, 1, 66));
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    transition-property: all;
+    transition-duration: 1.5s;
+    transition-timing-function: ease-in;
+}
+.bg6-1:hover .hdn{
+    display: block;
+    transition-property: all;
+    transition-duration: 1.5s;
+    transition-timing-function: ease-in;
+}
+
+.bg8{
+    min-height: 30rem;
+    display: block;
+    background-image: url('/images/skuffwdd23.jpg'), linear-gradient(rgb(11, 1, 36), rgb(11, 1, 36));
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+}
+
+.bg9 .hder{
+    border-bottom: 1px solid gray;
+}
+
+.bg9 .hder:hover{
+    border: 1px solid rgba(255, 99, 71, 0.4);
+    background-color: rgba(255, 99, 71, 0.1);
+    border-radius: 1rem 1rem 0 0;
+    border-bottom: 1px solid transparent;
+    cursor: copy;
+}
+.bg9 .hder:hover *{
+    color: tomato;
+}
+.post-card-image, .card-img-overlay{
+    height: 16rem;
+}
+.bg10-ci, .card-img-overlay{
+    height: 16rem;
+}
+
+
+.mini-scroll::-webkit-scrollbar {
+    height: 0px;
+  }
+  
+  /* Track */
+  .mini-scroll::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  .mini-scroll::-webkit-scrollbar-thumb {
+    background: rgb(250, 17, 17);
+    border-radius: 4px;
+  }
+  
+  /* Handle on hover */
+  .mini-scroll::-webkit-scrollbar-thumb:hover {
+    background: rgb(255, 47, 75);
+  }
