@@ -20,7 +20,7 @@ a{
 }
 .bg1{
     height: fit-content;
-     background-image: url('/images/skuffwdd48.jpg');
+     background-image: url('../images/skuffwdd48.jpg');
      background-color: var(--color-black);
      background-size: cover;
      background-position: center;
@@ -49,7 +49,7 @@ a{
 .bg5{
     min-height: 30rem;
     max-height: fit-content;
-    background-image: url('/images/skuffwdd149.jpg');
+    background-image: url('../images/skuffwdd149.jpg');
     background-color: var(--color-black-alpha);
     background-size: cover;
     background-position: center;
@@ -67,7 +67,7 @@ a{
 
 }
 .bg6-1{
-    background-image: url('images/skuffwdd149.jpg'), linear-gradient(to bottom, transparent 30%, var(--color-black) 70%);
+    background-image: url('../images/skuffwdd149.jpg'), linear-gradient(to bottom, transparent 30%, var(--color-black) 70%);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -79,7 +79,7 @@ a{
     display: none;
 }
 .bg6-1:hover{
-    background-image: url('/images/skuffwdd149.jpg'), linear-gradient(transparent 30%, var(--color-gold) 70%);
+    background-image: url('../images/skuffwdd149.jpg'), linear-gradient(transparent 30%, var(--color-gold) 70%);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -98,7 +98,7 @@ a{
 .bg8{
     min-height: 30rem;
     display: block;
-    background-image: url('images/skuffwdd23.jpg'), linear-gradient(var(--color-black), var(--color-black));
+    background-image: url('../images/skuffwdd23.jpg'), linear-gradient(var(--color-black), var(--color-black));
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

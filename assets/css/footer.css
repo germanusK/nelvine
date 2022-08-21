@@ -1,5 +1,5 @@
 .pic1{
-      background-image: url('/nelvine/assets/img/img2.jpg');
+      background-image: url('../images/img2.jpg');
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
@@ -18,7 +18,7 @@
     
 }
 .picc{
-    background-image: url('/nelvine/asstes/img/img2.jpg'), linear-gradient(transparent, rgb(0, 0, 0));
+    background-image: url('../images/img2.jpg'), linear-gradient(transparent, rgb(0, 0, 0));
     background-size: cover;
     height: 20rem;
     background-position: center;

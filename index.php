@@ -8,7 +8,7 @@
 
         <link rel="stylesheet" href='./assets/css/styles.css'>
         <link rel="stylesheet" href='./assets/css/bootstrap.min.css'>
-        <link rel="stylesheet" href='./assets/css/fa_all.min.css'>
+        <link rel="stylesheet" href='./assets/fontawesome/css/all.min.css'>
         <link rel="stylesheet" href='./assets/css/footer.css'>
 
     </head>
@@ -16,9 +16,9 @@
 
         <?php 
         include('./templates/header.php');
-        include('./templates/nelvine.php');
+        // include('./templates/nelvine.php');
         include('./templates/footer.php'); ?>
-        <script src='./assets/bootstrap-5/bootstrap-5.0.2-dist/js/bootstrap.min.js'></script>
+        <!-- <script src='./assets/bootstrap-5/bootstrap-5.0.2-dist/js/bootstrap.min.js'></script>
         <script src='./assets/fontawesome-free-5/fontawesome-free-5.14.0-web/js/all.min.js'></script>
-    </body>
+    </body> -->
 </html>

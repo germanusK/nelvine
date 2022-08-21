@@ -15,7 +15,7 @@
     </div>
     <div class="w-100 bg1" >
         <h3 class="color-gold ">section 2:</h3>
-        <nav class="navbar navbar-expand-sm justify-content-between" >
+        <nav class="navbar navbar-expand-sm justify-content-between mb-5" >
             <div class="col-md-3 text-center">
                 <a class="navbar-brand fs-2" href="#">NELVINE</a>
             </div>
@@ -45,7 +45,7 @@
         </nav>
 
         <h3 class="color-gold ">section 3:</h3>
-        <div class="w-100 vh-100 d-flex flex-column justify-content-center text-white">
+        <div class="w-100 min-vh-100 d-flex flex-column justify-content-center text-white">
             <div class="w-100 h-25 fw-bolder text-white text-center">
                 <h2 class="header_alt_text1"></h2>
                 <script>
@@ -298,7 +298,7 @@
             </ol>
             <div class="carousel-inner" role="listbox">
                 <div class="carousel-item active">
-                    <img src="holder.js/900x500/auto/#777:#555/text:First slide" alt="First slide">
+                    src="holder.js/900x500/auto/#777:#555/text:First slide" alt="First slide">
                 </div>
                 <div class="carousel-item">
                     <img src="holder.js/900x500/auto/#666:#444/text:Second slide" alt="Second slide">
