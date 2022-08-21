@@ -48,11 +48,11 @@
         </div>
     </div>
     <div class="w-100 pt-4 " style="background-color:rgb(0, 0, 24)">
-        <div class="container d-flex text-light" style="font-size: 13px;">
-            <p class="text-white para mx-2">&copy; NELVINE 2022. ALL RIGHT RESERVED </p> | 
-            <p class="text-white para mx-2">TERMS & CONDITION  </p> |
-            <p class="text-white para mx-2">DISCLAIMER  </p> |
-            <p class="text-white para mx-2">RETURN & COUNCELLATION </p> 
+        <div class="container d-flex flex-wrap text-light" style="font-size: 13px;">
+            <span class="text-white para mx-2">&copy; NELVINE 2022. ALL RIGHT RESERVED </span> | 
+            <span class="text-white para mx-2">TERMS & CONDITION  </span> |
+            <span class="text-white para mx-2">DISCLAIMER  </span> |
+            <span class="text-white para mx-2">RETURN & COUNCELLATION </span> 
         </div>
     </div>
 </div>

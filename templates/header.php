@@ -258,7 +258,7 @@
         <div class="w-100 d-flex flex-row flex-nowrap overflow-scroll mini-scroll">
             <div class="d-flex flex-row flex-nowrap">
                 <?php for($i=0; $i < 17; $i++){ ?>
-                <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="col col-sm-6 col-md-4 col-lg-3 col-xl-2" style="min-width:16rem; max-width:24rem">
                     <div class="card bg-transparent my-4 mx-1 rounded-lg border border-2 border-secondary p-1">
                         <img src="assets/images/skuffwdd23.jpg" alt="casd image" class="card-img bg10-ci">
                         <div class="card-img-overlay bg-image hover-zoom" style="background-color: rgba(0, 12, 31, 0.7);">
